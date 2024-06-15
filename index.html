@@ -12,87 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Mart</title>
-    <style>
-        /* Style tag start */
-        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap');
+    <link rel="stylesheet" href="style.css" type="text/css" />
 
-        body {
-            font-family: "Gabarito", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 500;
-            font-style: normal;
-        }
-
-        .staatliches-regular {
-            font-family: "Staatliches", sans-serif;
-            font-weight: 200;
-            font-style: normal;
-        }
-
-        .nn {
-            background-color: #cebfe1;
-        }
-
-        .btn2 {
-            border: 2px solid black;
-            padding: 10px;
-            box-shadow: 2px 2px black;
-            border-radius: 24px;
-            cursor: pointer;
-        }
-
-
-        /*Grid css*/
-        .grids {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: grid;
-            grid-gap: 1rem;
-        }
-
-        .grid {
-            padding: 1px;
-        }
-
-        @media (min-width: 900px) {
-            .grids {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* Screen larger than 900px? 3 columns */
-        @media (min-width: 600px) {
-            .grids {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        .responsive {
-            width: 100%;
-            height: auto;
-        }
-
-        .card {
-            border: 2px solid black;
-            padding: 10px;
-            box-shadow: 2px 2px black;
-            border-radius: 25px;
-        }
-
-        .card-title {
-            background-color: #F4A460;
-            border-radius: 20px;
-            padding: 10px;
-            width: fit-content;
-        }
-
-        .landing1 {
-            padding: 20px;
-            padding-left: 30px;
-            background-color: #e4b78f;
-        }
-    </style>
+    <!--[Navbar]-->
     <div class="navbar bg-base-100 nn">
         <div class="navbar-start">
             <div class="dropdown">
@@ -146,7 +68,6 @@
                 class="max-w-sm rounded-lg  responsive" />
 
 
-
             <div class="hero-content flex-col lg:flex-row-reverse">
                 <div class="">
                     <h1 class="staatliches-regular text-4xl font-bold">Get Free,<br><span
@@ -164,7 +85,7 @@
         <div class="grids">
             <div class="grid">
                 <div class="card">
-                    <p class="card-title">Material Design</p><br>
+                    <p class="card-title lt1">Material Design</p><br>
                     <p><b>Material 3</b> is the latest version of Google’s open-source design system. Design and build
                         beautiful,
                         usable products with Material 3.</p>
@@ -176,39 +97,122 @@
 
             <div class="grid">
                 <div class="card">
-                    <p class="card-title">Android</p><br>
-                    <p><b>Android</b> is most popular os. Awesome design and best system for android device. Also use for apps and website.</p>
+                    <p class="card-title lt1">Android</p><br>
+                    <p><b>Android</b> is most popular os. Awesome design and best system for android device. Also use
+                        for apps and website.</p>
                     <br>
                     <p>latest update: 15</p>
-                    <a class="link" href="https://daisyui.com/">Visit site </a>
+                    <a class="link" href="https://developer.android.com/">Visit site </a>
                 </div>
             </div>
 
-            
+
             <div class="grid">
                 <div class="card">
-                    <p class="card-title">Web Mart</p><br>
-                    <p><b>Web Mart</b> is most popular site to get help to creat website and design esaily. Also create your own website.</p>
+                    <p class="card-title lt1">Web Mart</p><br>
+                    <p><b>Web Mart</b> is most popular site to get
+                        help to creat website and design esaily. Also create
+                        your own website.</p>
                     <br>
                     <p>latest update: 3.0 (Material Design)</p>
-                    <a class="link" href="https://webmart.github.io/">Visit site</a>
+                    <a class="link" href="https://developerdhaval.github.io/webmart/">Visit site</a>
                 </div>
             </div>
 
-            
+
             <div class="grid">
                 <div class="card">
-                    <p class="card-title">DasiyUi</p><br>
-                    <p><b>DasiyUI</b> is The most popular component library for Tailwind CSS. daisyUI component make beautiful websites faster than ever.
-                        
-                        </p>
+                    <p class="card-title lt1">DasiyUi</p><br>
+                    <p><b>DasiyUI</b> is The most popular component library for Tailwind CSS. daisyUI component make
+                        beautiful websites faster than ever.
+
+                    </p>
                     <br>
                     <p>latest update: 4.0</p>
-                    <a class="link" href="https://webmart.github.io/">Visit site</a>
+                    <a class="link" href="https://daisyui.com/">Visit site</a>
                 </div>
             </div>
 
         </div>
+    </div>
+
+    <div class="landing2">
+
+        <div class="grids">
+            <div class="grid">
+                <h1 class="text-2xl staatliches-regular">Useful website</h1><br>
+                <div class="card">
+                    <h1 class="text-1xl">Discover Website that help to coding and web design.</h1><br>
+                    <a class="btn3" href="#">View site</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <h1 class="text-2xl staatliches-regular">Create your own website</h1><br>
+                <div class="card">
+                    <h1 class="text-1xl">Create and host your website with Web Mart. Free to create your website esaily.
+                    </h1><br>
+                    <a class="btn3" href="#">Create in free</a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="landing3">
+
+        <h1 class="text-2xl staatliches-regular">code Editor</h1><br>
+        <div class="grids">
+            <div class="grid">
+                <div class="card">
+                    <p class="card-title lt3">Web Mart</p>
+                    <p style="padding-left: 7px;">Tag: Online editor</p><br>
+                    <p>Web Mart is most useful editor for your website in online.</p>
+                    <br>
+                    <a class="btn3" style="background-color: #b49dce;;" href="#">Visit editor</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <p class="card-title lt3">W3School</p>
+                    <p style="padding-left: 7px;">Tag: Online editor</p><br>
+                    <p>W3School has also provide code editor for your website in online.
+                    </p>
+                    <br>
+                    <a class="btn3" style="background-color: #b49dce;;" href="https://www.w3schools.com/">Visit editor</a>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <p class="card-title lt3">Codepen</p>
+                    <p style="padding-left: 7px;">Tag: Online editor</p><br>
+                    <p>Codepen is best code editor with publish code in online.
+                    </p>
+                    <br>
+                    <a class="btn3" style="background-color: #b49dce;;" href="https://codepen.io/">Visit editor</a>
+                </div>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <p class="card-title lt3">Visual Studio editor</p>
+                    <p style="padding-left: 7px;">Tag: Software</p><br>
+                    <p>VS Code is best editor for your PC. All language supported with best Extensions.
+                    </p>
+                    <br>
+                    <a class="btn3" style="background-color: #b49dce;;" href="https://code.visualstudio.com/">Download for your PC</a>
+                </div>
+            </div>
+
+
+        </div>
+
     </div>
 
 
